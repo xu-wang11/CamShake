@@ -63,8 +63,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
-    <IncludePath>D:\opencv\build\include;D:\opencv\build\include\opencv;D:\opencv\build\include\opencv2;D:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include;D:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtGui;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\opencv\build\x64\vc11\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Program Files\opencv\build\include;D:\Program Files\opencv\build\include\opencv;D:\Program Files\opencv\build\include\opencv2;F:\tools\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include;F:\tools\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtGui;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Program Files\opencv\build\x64\vc11\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
@@ -258,7 +258,7 @@
   </ImportGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties UicDir=".\GeneratedFiles" MocDir=".\GeneratedFiles\$(ConfigurationName)" MocOptions="" RccDir=".\GeneratedFiles" lupdateOnBuild="0" lupdateOptions="" lreleaseOptions="" Qt5Version_x0020_Win32="msvc2012_64_opengl" Qt5Version_x0020_x64="msvc2012_64_opengl" />
+      <UserProperties UicDir=".\GeneratedFiles" MocDir=".\GeneratedFiles\$(ConfigurationName)" MocOptions="" RccDir=".\GeneratedFiles" lupdateOnBuild="0" lupdateOptions="" lreleaseOptions="" Qt5Version_x0020_Win32="msvc2012_64_opengl" Qt5Version_x0020_x64="Qt 5.2.1 MSVC2012 OpenGL 64bit" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

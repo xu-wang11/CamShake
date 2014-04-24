@@ -3,18 +3,16 @@
   <PropertyGroup />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <QTDIR>D:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl</QTDIR>
-    <LocalDebuggerEnvironment>PATH=$(QTDIR)\bin%3b$(PATH)</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <QTDIR>D:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl</QTDIR>
-    <LocalDebuggerEnvironment>PATH=$(QTDIR)\bin%3b$(PATH)</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <QTDIR>D:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl</QTDIR>
+    <QTDIR>F:\tools\QT\5.2.1\msvc2012_64_opengl</QTDIR>
     <LocalDebuggerEnvironment>PATH=$(QTDIR)\bin%3b$(PATH)</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <QTDIR>D:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl</QTDIR>
+    <QTDIR>F:\tools\QT\5.2.1\msvc2012_64_opengl</QTDIR>
     <LocalDebuggerEnvironment>PATH=$(QTDIR)\bin%3b$(PATH)</LocalDebuggerEnvironment>
   </PropertyGroup>
 </Project>

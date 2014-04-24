@@ -12,21 +12,31 @@ class Camera:public QThread
 public:
 	CvMemStorage* storage;
 	CvHaarClassifierCascade* cascade;
-	void detect_and_draw(IplImage* img);
+
 	char* cascade_name;
 	int GetKey;
+	int KeydownList;
 	CvPoint prev;
 	int threshold;
 	int status;
 	CamShake* window;
 	bool isExist;
-	Camera(QObject *parent = NULL):threshold(15), status(0)
+	bool isContinuous;
+
+	Camera(QObject *parent = NULL):threshold(12), status(0)
 	{
 		prev.x = 0;
 		prev.y = 0;
+		KeydownList = -1;
 		cascade_name = "haarcascade_frontalface_alt.xml";
-		isExist = false;
+		isExist = true;
 	}
+
+	void con_detect_and_draw(IplImage* img);
+	void dis_detect_and_draw(IplImage* img);
+	void put_text_onscreen(IplImage* img, const char* text,int x, int y);
+	void allkey_up();
+
 protected:
 	void run();
 };

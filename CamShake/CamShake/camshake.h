@@ -18,7 +18,9 @@ public:
 protected:
 	void closeEvent(QCloseEvent* ev);
 public slots:
-		void startCam();
+		void startConCam();
+		void startDisCam();
+		void stopCam();
 		
 };
 
